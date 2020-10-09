@@ -28,10 +28,8 @@ export default {
     windowWidth: 0,
   },
 
-  qmapKey: '7P2BZ-DVU33-OLJ3J-3C3GT-QVTC7-WLFOX',
-
   // 接口访问配置
-  baseUrl: isProd ? 'https://api.cloud.untrip.net' : 'https://api.cloud.ynpay.cc',
+  baseUrl: isProd ? '正式环境地址' : '测试环境地址',
   clientId: isProd ? '8a0049b6-e43d-4869-bdde-800eea361edd' : 'e18c276d-9340-4888-9ec3-22b8585cbd8e',
   clientBasicToken: isProd ? 'OGEwMDQ5YjYtZTQzZC00ODY5LWJkZGUtODAwZWVhMzYxZWRkOmV4emMwYmZrdzl1YzhmZXY=' : 'ZTE4YzI3NmQtOTM0MC00ODg4LTllYzMtMjJiODU4NWNiZDhlOjE1eG45MXc1YmZveGR0bng',
 
