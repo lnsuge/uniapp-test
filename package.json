@@ -1,0 +1,30 @@
+{
+  "name": "uniapp-test",
+  "version": "4.5.3",
+  "main": "main.js",
+  "repository": "git@github.com:lnsuge/uniapp-test.git",
+  "author": "李念 <linian0912@163.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint \"components/**\" \"pages/**\" \"store/**\" \"tools/**\""
+  },
+  "devDependencies": {
+    "@types/node": "12.12.8",
+    "@types/uni-app": "1.4.1",
+    "eslint": "^6.5.1",
+    "eslint-plugin-vue": "6.0.1",
+    "husky": "^4.0.0-beta.5",
+    "lint-staged": "9.4.3",
+    "miniprogram-api-typings": "2.9.2",
+    "vue": "^2.6.10",
+    "vuex": "3.1.2"
+  },
+  "dependencies": {
+    "dayjs": "^1.8.17",
+    "js-base64": "^2.5.1",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.get": "^4.4.2",
+    "lodash.merge": "^4.6.2"
+  }
+}
