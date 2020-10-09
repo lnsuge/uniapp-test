@@ -1,7 +1,6 @@
 <template lang="pug">
   .container
     .title-wrapper
-      .logon
       .title 启动页
       view.version Ver {{ version }}
     .error(v-if="showError") 正在启动
@@ -99,15 +98,6 @@ export default {
   left: 0;
   color: #acacac;
   font-size: 28rpx;
-  text-align: center;
-}
-.copyright {
-  position: fixed;
-  right: 0;
-  bottom: 32rpx;
-  left: 0;
-  color: #acacac;
-  font-size: 24rpx;
   text-align: center;
 }
 </style>
