@@ -12,6 +12,24 @@
       "style": {
         "navigationBarTitleText": ""
       }
+    },
+    {
+      "path": "pages/device/index",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/word/index",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/me/index",
+      "style": {
+        "navigationBarTitleText": ""
+      }
     }
   ],
   "globalStyle": {
@@ -19,5 +37,36 @@
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [{
+        "pagePath": "pages/home/index",
+        "iconPath": "static/home-1.png",
+        "selectedIconPath": "static/home-2.png",
+        "text": "首页"
+    }, {
+        "pagePath": "pages/device/index",
+        "iconPath": "static/device-1.png",
+        "selectedIconPath": "static/device-2.png",
+        "text": "设备"
+    }, {
+      "pagePath": "pages/word/index",
+      "iconPath": "static/word-1.png",
+      "selectedIconPath": "static/word-2.png",
+      "text": "工作台"
+    }, {
+      "pagePath": "pages/me/index",
+      "iconPath": "static/me-1.png",
+      "selectedIconPath": "static/me-2.png",
+      "text": "我的"
+    }]
   }
 }

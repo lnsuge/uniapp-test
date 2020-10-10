@@ -46,7 +46,7 @@ export default {
           doing = false
           // 延迟至少 1.5 秒切换
           const cost = Date.now() - this.launchTime
-          setTimeout(() => {  uni.redirectTo({ url: '/pages/home/index' }) }, Math.max(1500 - cost, 0))
+          setTimeout(() => {  uni.switchTab({ url: '/pages/home/index' }) }, Math.max(1500 - cost, 0))
         } catch (error) {
           this.showError = true
           await new Promise((resolve) => setTimeout(resolve, 1000))
